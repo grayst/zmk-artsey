@@ -156,7 +156,7 @@
 		combo_b { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_E KEY_O>; bindings = <&kp B>; };
 		combo_m { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_Y KEY_I KEY_O>; bindings = <&kp M>; };
 		combo_c { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_E KEY_Y>; bindings = <&kp C>; };
-		combo_n { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_I KEY_O>; bindings = <&kp N>; };
+		combo_y { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_I KEY_O>; bindings = <&kp Y>; };
 		combo_d { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_A KEY_R KEY_T>; bindings = <&kp D>; };
 		combo_p { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_E KEY_I KEY_O>; bindings = <&kp P>; };
 		combo_f { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO>; key-positions = <KEY_A KEY_R>; bindings = <&kp F>; };
@@ -239,9 +239,9 @@
 			label = "ARTSEY";
 			bindings = <
 				LEADING_NONES
-				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS A  &kp R     &kp T     &layer_numbers_kp LAYER_ID_NUMBERS S
+				&layer_parentheticals_kp LAYER_ID_PARENTHETICALS T  &kp S     &kp R     &layer_numbers_kp LAYER_ID_NUMBERS A
 				MIDDLE_NONES
-				&layer_symbols_kp LAYER_ID_SYMBOLS E                &kp Y     &kp I     &layer_custom_kp LAYER_ID_CUSTOM O
+				&layer_symbols_kp LAYER_ID_SYMBOLS N                &kp E     &kp I     &layer_custom_kp LAYER_ID_CUSTOM O
 				TRAILING_NONES
 			>;
 		};
@@ -319,9 +319,9 @@
 			label = "ARTSEY";
 			bindings = <
 				LEADING_NONES
-				&layer_numbers_kp LAYER_ID_NUMBERS S        &kp T     &kp R     &layer_parentheticals_kp LAYER_ID_PARENTHETICALS A
+				&layer_numbers_kp LAYER_ID_NUMBERS A        &kp R     &kp S     &layer_parentheticals_kp LAYER_ID_PARENTHETICALS T
 				MIDDLE_NONES
-				&layer_custom_kp LAYER_ID_CUSTOM O          &kp I     &kp Y     &layer_symbols_kp LAYER_ID_SYMBOLS E
+				&layer_custom_kp LAYER_ID_CUSTOM O          &kp I     &kp E     &layer_symbols_kp LAYER_ID_SYMBOLS N
 				TRAILING_NONES
 			>;
 		};
