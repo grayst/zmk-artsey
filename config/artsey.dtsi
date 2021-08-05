@@ -137,17 +137,17 @@
  * See documentation on "combos" for more detail
  *****************************************/
 #if !defined TIMEOUT_COMBO
-#define TIMEOUT_COMBO 250
+#define TIMEOUT_COMBO 150
 #endif
 #if !defined TIMEOUT_LAYER_HOLD
-#define TIMEOUT_LAYER_HOLD 500
+#define TIMEOUT_LAYER_HOLD 250
 #endif
 &sk {
 	release-after-ms = <1000>;
 };
 
 /*****************************************
- * Standard ARTSEY combo definitions
+ * Colemak ARTSEY combo definitions
  * These should NOT be changed and are global in scope
  *****************************************/
 / {
@@ -201,7 +201,7 @@
 };
 
 /*****************************************
- * Standard ARTSEY layer activation definitions
+ * Colemak ARTSEY layer activation definitions
  * These should NOT be changed and are global in scope
  *****************************************/
 / {
@@ -228,7 +228,7 @@
 };
 
 /*****************************************
- * Standard ARTSEY layer definitions 
+ * Colemak ARTSEY layer definitions 
  * !!!!!!!!!! FOR RIGHT HANDED USE !!!!!!!!!!
  *****************************************/
 #if defined ARTSEY_RIGHT
@@ -308,7 +308,7 @@
 #endif
 
 /*****************************************
- * Standard ARTSEY layer definitions 
+ * Colemak ARTSEY layer definitions 
  * !!!!!!!!!! FOR LEFT HANDED USE !!!!!!!!!!
  *****************************************/
 #if defined ARTSEY_LEFT
